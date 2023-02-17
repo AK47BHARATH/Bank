@@ -5,7 +5,7 @@
 	<?php require 'assets/autoloader.php'; ?>
 	<?php require 'assets/function.php'; ?>
 	<?php
-    $con = new mysqli('localhost:4306','root','','mybank3');
+    $con = new mysqli('containers-us-west-112.railway.app','root','LwmmEl8M7Pb0T8FFQT8s','railway');
     define('bankname', 'Mar Aprem Bank LTD.');
 	session_start();
 	
